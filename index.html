@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ahmad Ali Ramlan — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/svg+xml" href="./assets/icon/favicon.ico">
+  <link rel="icon" type="image/png" href="./assets/icon/favicon.ico"> 
+
+
+  <link rel="stylesheet" href="./dist/css/style.css"/>
+</head>
+<body>
+  <div class="ocean-bg">
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </div>
+  <div class="particles" id="particles"></div>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+  <a href="#beranda" class="scroll-up" id="scrollUp">↑</a>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-logo">Ramlan.</div>
+    <ul class="nav-links">
+      <li><a href="#beranda">Home</a></li>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#keahlian">Keahlian</a></li>
+      <li><a href="#proyek">Proyek</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="beranda">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span class="badge-text" id="badgeText"></span>
+          
+        </div>
+        <h1 class="hero-title">
+          <span class="line"><span>Ahmad</span></span>
+          <span class="line"><span><em>Ali Ramlan</em></span></span>
+          
+        </h1>
+        <p class="hero-sub">Mengubah ide jadi pengalaman digital yang simpel, mudah dipahami, dan berkesan—gabungan kode rapi dan desain yang punya arti</p>
+        <div class="hero-cta">
+          <a href="#proyek" class="btn-ocean">Lihat Proyek →</a>
+          <a href="#kontak" class="btn-ghost">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero-avatar">
+        <div class="avatar-glow"></div>
+        <div class="avatar-wrap">
+          <img src="./assets/images/tentang.jpeg" alt="Ahmad Ali Ramlan"
+               onerror="this.style.background='linear-gradient(135deg,#0ea5e9,#a78bfa)';this.removeAttribute('src')"/>
+          <div class="avatar-tag">✦ Aannn</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint"><span></span>Scroll</div>
+  </section>
+
+  <!-- TENTANG -->
+  <section id="tentang">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-label">01 — Tentang Saya</div>
+        <h2 class="section-title">Siapa <em>Saya?</em></h2>
+        <div class="divider"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>Hai! Nama saya <strong>Ahmad Ali Ramlan</strong>. Saat ini saya adalah Mahasiswa UIN SJECH M DJAMIL DJAMBEK BUKITTiNGGI. Saya punya ketertarikan mendalam pada bidang <strong>Pengembangan Web</strong> dan <strong>Desain Visual</strong>.</p>
+          <p>Kecintaan saya pada teknologi dan desain tumbuh sejak saya menyadari betapa menyenangkannya mengubah ide menjadi visual yang dapat dinikmati oleh banyak orang.</p>
+          <p>Saya meyakini bahwa perpaduan antara kode yang bersih dan desain yang matang mampu menghadirkan pengalaman terbaik bagi setiap pengguna.</p>
+          <div class="stats-row">
+            <div class="stat-item"><div class="stat-num">4+</div><div class="stat-label">Proyek</div></div>
+            <div class="stat-item"><div class="stat-num">11</div><div class="stat-label">Tools</div></div>
+            <div class="stat-item"><div class="stat-num">2+</div><div class="stat-label">Tahun</div></div>
+          </div>
+        </div>
+        <div class="reveal reveal-delay-2">
+          <div class="tools-label">// Stack &amp; Tools</div>
+          <div class="tools-grid">
+            <div class="tool-chip"><span class="ti">🖥️</span>VS Code</div>
+            <div class="tool-chip"><span class="ti">💨</span>Tailwind</div>
+            <div class="tool-chip"><span class="ti">⚛️</span>React JS</div>
+            <div class="tool-chip"><span class="ti">🟩</span>Node JS</div>
+            <div class="tool-chip"><span class="ti">▲</span>Next JS</div>
+            <div class="tool-chip"><span class="ti">🟨</span>JavaScript</div>
+            <div class="tool-chip"><span class="ti">🐙</span>GitHub</div>
+            <div class="tool-chip"><span class="ti">🎨</span>Figma</div>
+            <div class="tool-chip"><span class="ti">🖼️</span>Canva</div>
+            <div class="tool-chip"><span class="ti">✏️</span>Illustrator</div>
+            <div class="tool-chip"><span class="ti">🅱️</span>Bootstrap</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEAHLIAN -->
+<section id="keahlian">
+  <div class="section-inner">
+    <div class="reveal">
+      <div class="section-label">02 — Keahlian</div>
+      <h2 class="section-title">Skill <em>Saya</em></h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="skills-grid reveal">
+
+      <div class="skill-item">
+        <div class="skill-name">HTML & CSS</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+        <span class="skill-pct">90%</span>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+        <span class="skill-pct">80%</span>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">React JS</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 75%"></div></div>
+        <span class="skill-pct">75%</span>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">Next JS</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 70%"></div></div>
+        <span class="skill-pct">70%</span>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">Figma & UI Design</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+        <span class="skill-pct">85%</span>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">Node JS</div>
+        <div class="skill-bar"><div class="skill-fill" style="width: 65%"></div></div>
+        <span class="skill-pct">65%</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- PROYEK -->
+  <section id="proyek">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-label">03 — Proyek</div>
+        <h2 class="section-title">Daftar <em>Proyek</em></h2>
+        <div class="divider"></div>
+      </div>
+      <div class="proyek-grid"> 
+
+        <div class="proyek-card reveal">
+          <div class="card-img-wrap">
+            <img src="./assets/images/proyek/proyek1.webp" alt="Website Sekolah" onerror="this.style.background='linear-gradient(135deg,#071e35,#0a2847)';this.style.height='180px';this.removeAttribute('src')"/>
+            <div class="card-overlay"></div>
+            <div class="card-num-badge">01</div>
+          </div>
+          <div class="card-body">
+            <div class="card-title">Website Sekolah</div>
+            <p class="card-desc">Platform akademik kampus dengan fitur e-learning, manajemen jadwal, dan informasi mahasiswa terintegrasi.</p>
+            <div class="card-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+            <div class="card-links">
+              <a href="https://ecampus.uinbukittinggi.ac.id/ecampus/" target="_blank" class="card-link">Lihat Website →</a>
+              <a href="https://github.com/ahmadaliramlan278-ui" target="_blank" class="card-link ghost">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="proyek-card reveal reveal-delay-1">
+          <div class="card-img-wrap">
+            <img src="./assets/images/proyek/proyek2.webp" alt="Website Company" onerror="this.style.background='linear-gradient(135deg,#071e35,#0a2847)';this.style.height='180px';this.removeAttribute('src')"/>
+            <div class="card-overlay"></div>
+            <div class="card-num-badge">02</div>
+          </div>
+          <div class="card-body">
+            <div class="card-title">Website Company</div>
+            <p class="card-desc">Landing page modern untuk perusahaan teknologi dengan animasi halus, layout responsif, dan performa tinggi.</p>
+            <div class="card-tags"><span class="tag">React</span><span class="tag">Tailwind</span><span class="tag">Figma</span></div>
+            <div class="card-links">
+              <a href="https://www.freecodecamp.org/" target="_blank" class="card-link">Lihat Website →</a>
+              <a href="https://github.com/ahmadaliramlan278-ui" target="_blank" class="card-link ghost">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="proyek-card reveal reveal-delay-2">
+          <div class="card-img-wrap">
+            <img src="./assets/images/proyek/proyek3.webp" alt="Website Course" onerror="this.style.background='linear-gradient(135deg,#071e35,#0a2847)';this.style.height='180px';this.removeAttribute('src')"/>
+            <div class="card-overlay"></div>
+            <div class="card-num-badge">03</div>
+          </div>
+          <div class="card-body">
+            <div class="card-title">Website Course</div>
+            <p class="card-desc">Platform belajar online dengan sistem kursus, video pembelajaran, dan dashboard progres belajar siswa.</p>
+            <div class="card-tags"><span class="tag">Next JS</span><span class="tag">Node JS</span><span class="tag">Bootstrap</span></div>
+            <div class="card-links">
+              <a href="https://getbootstrap.com/" target="_blank" class="card-link">Lihat Website →</a>
+              <a href="https://github.com/ahmadaliramlan278-ui" target="_blank" class="card-link ghost">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="proyek-card reveal reveal-delay-3">
+          <div class="card-img-wrap">
+            <img src="./assets/images/proyek/proyek4.webp" alt="Website Portofolio" onerror="this.style.background='linear-gradient(135deg,#071e35,#0a2847)';this.style.height='180px';this.removeAttribute('src')"/>
+            <div class="card-overlay"></div>
+            <div class="card-num-badge">04</div>
+          </div>
+          <div class="card-body">
+            <div class="card-title">Website Portofolio</div>
+            <p class="card-desc">Portofolio personal yang menampilkan identitas, proyek, dan keahlian dengan desain yang unik dan berkesan.</p>
+            <div class="card-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Figma</span></div>
+            <div class="card-links">
+              <a href="https://www.hacktiv8.com/" target="_blank" class="card-link">Lihat Website →</a>
+              <a href="https://github.com/ahmadaliramlan278-ui" target="_blank" class="card-link ghost">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+        <!-- PROYEK 05 — HTML & CSS -->
+<div class="proyek-card reveal">
+  <div class="card-img-wrap">
+    <img src="./assets/images/proyek/proyek5.png" alt="Landing Page Responsif"
+         onerror="this.style.background='linear-gradient(135deg,#071e35,#0a2847)';this.style.height='180px';this.removeAttribute('src')"/>
+    <div class="card-overlay"></div>
+    <div class="card-num-badge">05</div>
+  </div>
+  <div class="card-body">
+    <div class="card-title">Landing Page Responsif</div>
+    <p class="card-desc">Halaman landing page modern yang dibangun murni dengan HTML dan CSS, menampilkan layout responsif, animasi CSS, dan desain yang rapi di semua perangkat.</p>
+    <div class="card-tags">
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+    </div>
+    <div class="card-links">
+      <a href="https://dribbble.com/shots/26666035-Mobile-First-Charity-Web-Design-HopeRise" target="_blank" class="card-link">Lihat Website →</a>
+      <a href="https://github.com/ahmadaliramlan278-ui" target="_blank" class="card-link ghost">GitHub ↗</a>
+    </div>
+  </div>
+</div>
+
+<!-- PROYEK 06 — JavaScript -->
+<div class="proyek-card reveal reveal-delay-1">
+  <div class="card-img-wrap">
+    <img src="./assets/images/proyek/proyek6.png" alt="Aplikasi To-Do List"
+         onerror="this.style.background='linear-gradient(135deg,#071e35,#0a2847)';this.style.height='180px';this.removeAttribute('src')"/>
+    <div class="card-overlay"></div>
+    <div class="card-num-badge">06</div>
+  </div>
+  <div class="card-body">
+    <div class="card-title">Aplikasi To-Do List</div>
+    <p class="card-desc">Aplikasi manajemen tugas interaktif berbasis JavaScript murni dengan fitur tambah, hapus, filter tugas, dan penyimpanan data lokal menggunakan LocalStorage.</p>
+    <div class="card-tags">
+      <span class="tag">JavaScript</span>
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+    </div>
+    <div class="card-links">
+      <a href="https://www.atlassian.com/software/confluence?gclsrc=aw.ds&&campaign=20359017311&adgroup=159663805828&targetid=kwd-39862722&matchtype=b&network=g&device=c&device_model=&creative=672194971176&keyword=task%20list&placement=&target=&ds_eid=700000001542923&ds_e1=GOOGLE&gad_source=1&gad_campaignid=20359017311&gbraid=0AAAAAD2bkRcZv---ifwcxOQ8-bGCoauQz&gclid=CjwKCAjwhLPOBhBiEiwA8_wJHNYkY0mMj9CcvdEYk-J9trleGTI8m1Fh8nAhue1iiaEtiNTwJFec-BoChnIQAvD_BwE" target="_blank" class="card-link">Lihat Website →</a>
+      <a href="https://github.com/ahmadaliramlan278-ui" target="_blank" class="card-link ghost">GitHub ↗</a>
+    </div>
+  </div>
+</div>
+
+<!-- PROYEK 07 — React JS -->
+<div class="proyek-card reveal reveal-delay-2">
+  <div class="card-img-wrap">
+    <img src="./assets/images/proyek/proyek7.png" alt="Dashboard Admin React"
+         onerror="this.style.background='linear-gradient(135deg,#071e35,#0a2847)';this.style.height='180px';this.removeAttribute('src')"/>
+    <div class="card-overlay"></div>
+    <div class="card-num-badge">07</div>
+  </div>
+  <div class="card-body">
+    <div class="card-title">Dashboard Admin React</div>
+    <p class="card-desc">Dashboard administrasi berbasis React JS dengan komponen reusable, manajemen state, visualisasi data grafik, dan tampilan yang responsif serta interaktif.</p>
+    <div class="card-tags">
+      <span class="tag">React JS</span>
+      <span class="tag">Tailwind</span>
+      <span class="tag">JavaScript</span>
+    </div>
+    <div class="card-links">
+      <a href="https://tailadmin.com/react" target="_blank" class="card-link">Lihat Website →</a>
+      <a href="https://github.com/ahmadaliramlan278-ui" target="_blank" class="card-link ghost">GitHub ↗</a>
+    </div>
+  </div>
+</div>
+
+<!-- PROYEK 08 — Figma & UI Design -->
+<div class="proyek-card reveal reveal-delay-3">
+  <div class="card-img-wrap">
+    <img src="./assets/images/proyek/proyek8.png" alt="UI Design Mobile App"
+         onerror="this.style.background='linear-gradient(135deg,#071e35,#0a2847)';this.style.height='180px';this.removeAttribute('src')"/>
+    <div class="card-overlay"></div>
+    <div class="card-num-badge">08</div>
+  </div>
+  <div class="card-body">
+    <div class="card-title">UI Design Mobile App</div>
+    <p class="card-desc">Desain antarmuka aplikasi mobile e-commerce menggunakan Figma, mencakup wireframe, prototype interaktif, design system, dan komponen UI yang konsisten.</p>
+    <div class="card-tags">
+      <span class="tag">Figma</span>
+      <span class="tag">UI Design</span>
+      <span class="tag">Prototype</span>
+    </div>
+    <div class="card-links">
+      <a href="https://dribbble.com/shots/26376023-World-Time-Mobile-App-UI" target="_blank" class="card-link">Lihat Desain →</a>
+      <a href="https://github.com/ahmadaliramlan278-ui" target="_blank" class="card-link ghost">GitHub ↗</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER / KONTAK -->
+  <footer id="kontak">
+    <div class="footer-inner">
+      <div class="footer-name">Ramlan.</div>
+      <div class="footer-right">
+        <p class="footer-copy">© 2026 <span>Ahmad Ali Ramlan</span> — 2523006</p>
+        <div class="social-row">
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/a2nnn11/" class="social-btn" title="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+
+          <!-- Facebook -->
+          <a href="" class="social-btn" title="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+
+          <!-- Twitter / X -->
+          <a href="#" class="social-btn" title="Twitter / X">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="#" class="social-btn" title="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+
+          <!-- WhatsApp -->
+          <a href="https://wa.me/6282180987229" target="_blank" class="social-btn" title="WhatsApp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.857L.057 23.57a.5.5 0 0 0 .609.637l5.939-1.56A11.94 11.94 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.9a9.9 9.9 0 0 1-5.031-1.371l-.361-.214-3.731.981.993-3.63-.235-.374A9.86 9.86 0 0 1 2.1 12c0-5.461 4.439-9.9 9.9-9.9 5.462 0 9.9 4.439 9.9 9.9 0 5.462-4.438 9.9-9.9 9.9z"/>
+            </svg>
+          </a>
+
+          <!-- Email -->
+          <a href="mailto:ahmadaliramlan278@gmail.com" class="social-btn" title="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="M22 7l-10 7L2 7"/>
+            </svg>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="./dist/js/script.js"></script>
+
+</body>
+</html>
